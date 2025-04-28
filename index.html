@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="Imagens/favicon.ico" rel="icon" type="image/x-icon">
     <title>HomeY&N</title>
+    <style>
+        .cartao {
+            width: 900px;
+            height: 450px;
+            background-color: red;
+            animation: mymove 5s reverse;
+            animation: mymove 5s infinite;
+            
+        }
+
+        @keyframes mymove {
+        from {background-color: rgb(255, 181, 21);}
+        to {background-color: rgb(255, 100, 10);}
+        }
+    </style>
 </head>
 <body>
     <h1>Unique Code Mastery</h1>
-    <p>Até aqui, finalizei o capitulo 1 do curso <abbr title="Hyper Text Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> do professor Gustavo Guanabara, Obrigado por compartilhar seu conhecimento brilhante!</p>
+    <p style="text-align: right;">Até aqui, finalizei o capitulo 1 do curso <abbr title="Hyper Text Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr> do professor Gustavo Guanabara, Obrigado por compartilhar seu conhecimento brilhante!</p>
     <br>
     <hr>
     <br>
@@ -32,8 +48,18 @@
     <br>
     <hr>
     <br>
-    <h2></h2>
 
+    <h2>Conheça meu trabalho nas redes sociais!</h2>
+    
+    <div class="cartao">
+        <div class="logos">
+            <div class="youtube"><a href="https://www.youtube.com/@YouNickDev" target="_blank" type="button"><button><img src="Imagens/Logo Youtube.png" alt="YT" type="image/png" widith="50px" height="50px">YouTube</button></a></div>
+            <div class="instagram"><a href="https://www.instagram.com/younickdev/" target="_blank" type="button"><button><img src="Imagens/Logo Insta.png" alt="Insta" type="image/png" widith="50px" height="50px">Instagram</button></a></div>
+            <div class="github"><a href="https://github.com/YouNickDev" target="_blank" type="button"><button><img src="Imagens/Logo GitHub.png" alt="Github" type="image/png" widith="50px" height="50px">Git Hub</button></a></div>
+        </div>
+       
+    </div>
+    <p>Obrigado por nos visitar!!</p>
     
 </body>
 </html>
