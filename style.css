@@ -23,7 +23,7 @@ li > a {
         color: rgb(0, 0, 255);
         font-size: 29px;
         text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-shadow: inset 1px 1px 2px blue, 1px 2px 2px black;
         padding-bottom: 10px;
 
@@ -35,7 +35,8 @@ h6 {
     color: rgb(0, 19, 185);
     font-size: 37px;
     margin-left: 30px;
-    font-family: fantasy, 'Courier New', Courier, monospace;}
+    font-family: fantasy, 'Courier New', Courier, monospace;
+}
     
 .cartao {
     position: relative;

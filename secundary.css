@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+body { 
+    display: flexbox;
+    background-color: rgba(217, 228, 207, 0.945);
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container {
+    z-index: initial;
+    display: flexbox;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+    background-color: rgba(255, 99, 27, 0.911);
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+a > button > img {
+    display: flex;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-top: -20px;
+    position: fixed;
+    background-color: transparent;
+    &:hover {
+        background-color: rgba(50, 73, 150, 0.603);
+        color: rgb(248, 127, 127);
+        box-shadow: inset 1px 1px 1px 1px #313030, 0px 1px 1px #4e02a594;
+    &:active {
+        background-color: rgba(18, 255, 29, 0.603);
+        color: rgb(248, 127, 127);
+        box-shadow: inset 1px 1px 1px 1px #313030, 0px 1px 1px #4e02a594;
+        }
+    }
+}
+
+.borda {
+    display: flex;
+    position: fixed;
+    width: 2100px;
+    height: 55px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background-image: url("Imagens/Borda.png");
+    background: cover;
+    background-repeat: repeat-x;
+    background-size: cover;
+    img {
+        display: flex;
+        position: fixed;
+        top: 0%;
+        left: 2%;
+        width: 55px;
+        height: 55px;
+    }
+}
+    
+  
+h1 {
+    display: flex;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 24, 146);
+    margin-top: 70px;
+    margin-left: 30px;
+}
